@@ -1,15 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://open-galaxea.github.io/Doc/</loc>
-         <lastmod>2025-09-22</lastmod>
+        <loc>https://open-galaxea.github.io/Doc/</loc>
+        <lastmod>2025-09-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://open-galaxea.github.io/Doc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://open-galaxea.github.io/Doc/zh/"/>
     </url>
     <url>
-         <loc>https://open-galaxea.github.io/Doc/galaxea_dp/</loc>
-         <lastmod>2025-09-22</lastmod>
+        <loc>https://open-galaxea.github.io/Doc/galaxea_dp/</loc>
+        <lastmod>2025-09-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://open-galaxea.github.io/Doc/galaxea_dp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://open-galaxea.github.io/Doc/zh/galaxea_dp/"/>
     </url>
     <url>
-         <loc>https://open-galaxea.github.io/Doc/galaxea_manipsim/</loc>
-         <lastmod>2025-09-22</lastmod>
+        <loc>https://open-galaxea.github.io/Doc/galaxea_manipsim/</loc>
+        <lastmod>2025-09-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://open-galaxea.github.io/Doc/galaxea_manipsim/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://open-galaxea.github.io/Doc/zh/galaxea_manipsim/"/>
+    </url>
+    <url>
+        <loc>https://open-galaxea.github.io/Doc/zh/</loc>
+        <lastmod>2025-09-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://open-galaxea.github.io/Doc/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://open-galaxea.github.io/Doc/zh/zh/"/>
+    </url>
+    <url>
+        <loc>https://open-galaxea.github.io/Doc/zh/galaxea_dp/</loc>
+        <lastmod>2025-09-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://open-galaxea.github.io/Doc/zh/galaxea_dp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://open-galaxea.github.io/Doc/zh/zh/galaxea_dp/"/>
+    </url>
+    <url>
+        <loc>https://open-galaxea.github.io/Doc/zh/galaxea_manipsim/</loc>
+        <lastmod>2025-09-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://open-galaxea.github.io/Doc/zh/galaxea_manipsim/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://open-galaxea.github.io/Doc/zh/zh/galaxea_manipsim/"/>
+    </url>
+    <url>
+        <loc>https://open-galaxea.github.io/Doc/zh/</loc>
+        <lastmod>2025-09-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://open-galaxea.github.io/Doc/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://open-galaxea.github.io/Doc/"/>
+    </url>
+    <url>
+        <loc>https://open-galaxea.github.io/Doc/zh/galaxea_dp/</loc>
+        <lastmod>2025-09-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://open-galaxea.github.io/Doc/zh/galaxea_dp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://open-galaxea.github.io/Doc/galaxea_dp/"/>
+    </url>
+    <url>
+        <loc>https://open-galaxea.github.io/Doc/zh/galaxea_manipsim/</loc>
+        <lastmod>2025-09-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://open-galaxea.github.io/Doc/zh/galaxea_manipsim/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://open-galaxea.github.io/Doc/galaxea_manipsim/"/>
+    </url>
+    <url>
+        <loc>https://open-galaxea.github.io/Doc/zh/zh/</loc>
+        <lastmod>2025-09-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://open-galaxea.github.io/Doc/zh/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://open-galaxea.github.io/Doc/zh/"/>
+    </url>
+    <url>
+        <loc>https://open-galaxea.github.io/Doc/zh/zh/galaxea_dp/</loc>
+        <lastmod>2025-09-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://open-galaxea.github.io/Doc/zh/zh/galaxea_dp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://open-galaxea.github.io/Doc/zh/galaxea_dp/"/>
+    </url>
+    <url>
+        <loc>https://open-galaxea.github.io/Doc/zh/zh/galaxea_manipsim/</loc>
+        <lastmod>2025-09-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://open-galaxea.github.io/Doc/zh/zh/galaxea_manipsim/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://open-galaxea.github.io/Doc/zh/galaxea_manipsim/"/>
     </url>
 </urlset>
