@@ -1,0 +1,23 @@
+site_name: Galaxea Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+nav:
+  - Home: index.md
+  - Galaxea DP: galaxea_dp.md
+  - Galaxea Manipulation Simulator: galaxea_manipsim.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
