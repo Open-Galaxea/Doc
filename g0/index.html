@@ -628,15 +628,20 @@
 
 
 <h1 id="g0-dual-system-vla">🛰️ G0 大模型（Dual-System VLA）</h1>
-<p>G0 是一个由规划器与执行器组成的双系统视觉-语言-行动（VLA）模型：
-- G0-VLM：负责高层次推理与子任务规划。
-- G0-VLA：负责实时、精确的低层动作控制。</p>
-<p>本页基于仓库 G0/README.md 汇总中文说明，涵盖安装、推理、微调与常见问题。</p>
+<p>G0 是一个由规划器与执行器组成的双系统视觉-语言-行动（VLA）模型：</p>
+<ul>
+<li>
+<p>G0-VLM：负责高层次推理与子任务规划。</p>
+</li>
+<li>
+<p>G0-VLA：负责实时、精确的低层动作控制。</p>
+</li>
+</ul>
 <h2 id="_1">🔭 项目资源</h2>
 <ul>
 <li>项目页：<code>https://opengalaxea.github.io/G0/</code></li>
 <li>论文（arXiv）：<code>https://arxiv.org/abs/2509.00576v1</code></li>
-<li>可视化：<code>https://opengalaxea.github.io/G0/visualizer/index.html</code></li>
+<li>数据集可视化：<code>https://opengalaxea.github.io/G0/visualizer/index.html</code></li>
 <li>数据集（HuggingFace）：<code>https://huggingface.co/datasets/OpenGalaxea/Galaxea-Open-World-Dataset</code></li>
 <li>数据集（ModelScope）：<code>https://www.modelscope.cn/datasets/Galaxea/Galaxea-Open-World-Dataset</code></li>
 <li>预训练权重（HuggingFace）：<code>https://huggingface.co/OpenGalaxea/G0-VLA</code></li>
@@ -670,7 +675,7 @@
 conda env create -f glx_vla.yml
 conda activate g0
 
-# 从源码安装依赖（示例：dlimp）
+# Install Pacakges from Code
 git clone https://github.com/kvablack/dlimp
 cd dlimp
 pip install -e .
