@@ -658,9 +658,9 @@ mv robotwin_models galaxea_sim/assets/
 python -m galaxea_sim.scripts.collect_demos --env-name R1ProBlocksStackEasy --num-demos 100
 python -m galaxea_sim.scripts.collect_demos --env-name R1LiteBlocksStackEasy --num-demos 100
 </code></pre>
-<p>默认 <code>--obs_mode=state</code>，数据保存在 <code>datasets/&lt;env-name&gt;/&lt;date-time&gt;</code>。</p>
+<p>默认 <code>--obs_mode=state</code>，数据保存在 <code>datasets/&lt;env-name&gt;/collected</code>。</p>
 <h3 id="2-jointik">2) 指定joint还是ik来回放数据，保存轨迹与图片</h3>
-<p>选择不同控制器来过滤无 IK 解的轨迹，并保存图像/深度至 <code>datasets/&lt;env-name&gt;/final</code>。
+<p>选择不同控制器来过滤无 IK 解的轨迹，并保存图像/深度至 <code>datasets/&lt;env-name&gt;/replayed</code>。
 以下三条命令对应上面的三条指令</p>
 <pre><code>python -m galaxea_sim.scripts.replay_demos --env-name R1DualBottlesPickEasy --target_controller_type bimanual_joint_position --num-demos 100
 python -m galaxea_sim.scripts.replay_demos --env-name R1ProBlocksStackEasy --target_controller_type bimanual_relaxed_ik --num-demos 100
