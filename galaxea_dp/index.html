@@ -270,7 +270,7 @@
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      ✨ 特性
+      前期准备
     </span>
   </a>
   
@@ -297,7 +297,7 @@
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      许可与致谢
+      结果展示
     </span>
   </a>
   
@@ -305,6 +305,15 @@
       
         <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      许可与致谢
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       引用
     </span>
@@ -415,7 +424,7 @@
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      ✨ 特性
+      前期准备
     </span>
   </a>
   
@@ -442,7 +451,7 @@
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      许可与致谢
+      结果展示
     </span>
   </a>
   
@@ -450,6 +459,15 @@
       
         <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      许可与致谢
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       引用
     </span>
@@ -475,10 +493,10 @@
 
 <h1 id="galaxea-dp">🤖 Galaxea DP</h1>
 <p>GalaxeaDP 是Diffusion policy算法的开源实现，支持 Galaxea R1 系列的端到端流程。</p>
-<h2 id="_1">✨ 特性</h2>
-<ul>
-<li>一键脚本，从数据到评估的完整仿真流程</li>
-</ul>
+<h2 id="_1">前期准备</h2>
+<p>系统：ubuntu22.04 (不要wsl, VM).</p>
+<p>显卡驱动：550</p>
+<p>cuda：12.4</p>
 <h2 id="_2">🚀 安装</h2>
 <pre><code>conda create -n opengalaxea python=3.10
 conda activate opengalaxea
@@ -503,12 +521,22 @@ bash scripts/sim_r1pro_blocks.sh
 <p><code>env</code>参数可选：R1ProBlocksStackEasy; R1LiteBlocksStackEasy</p>
 <p><code>task</code> 参数对应可选:R1ProBlocksStackEasy_eef 或R1ProBlocksStackEasy_joint ;R1LiteBlocksStackEasy_eef 或R1LiteBlocksStackEasy_joint</p>
 <p>更加详细的每个步骤（数据，训练，评估）在<a href="../galaxea_manipsim/">GalaxeaManipSim 模拟器</a> 可以看到。</p>
-<h2 id="_3">许可与致谢</h2>
+<h2 id="_3">结果展示</h2>
+<p>R1ProBlocksStackEasy</p>
+<video src="https://raw.githubusercontent.com/Open-Galaxea/open-galaxea/main/assets/dp_R1ProBlocksStackEasy.mp4" 
+       controls 
+       width="600"
+       muted
+       autoplay
+       loop>
+</video>
+
+<h2 id="_4">许可与致谢</h2>
 <ul>
 <li>MIT 许可</li>
 <li>致谢 Diffusion Policy、LeRobot、Robotwin</li>
 </ul>
-<h2 id="_4">引用</h2>
+<h2 id="_5">引用</h2>
 <pre><code>@inproceedings{GalaxeaDP,
   title={Galaxea Diffusion Policy},
   author={Galaxea Team},
