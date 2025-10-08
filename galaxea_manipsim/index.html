@@ -394,7 +394,7 @@
         <li class="md-nav__item">
   <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
-      许可与致谢
+      结果展示
     </span>
   </a>
   
@@ -402,6 +402,15 @@
       
         <li class="md-nav__item">
   <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      许可与致谢
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
     <span class="md-ellipsis">
       引用
     </span>
@@ -592,7 +601,7 @@
         <li class="md-nav__item">
   <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
-      许可与致谢
+      结果展示
     </span>
   </a>
   
@@ -600,6 +609,15 @@
       
         <li class="md-nav__item">
   <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      许可与致谢
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
     <span class="md-ellipsis">
       引用
     </span>
@@ -689,12 +707,22 @@ python -m galaxea_sim.scripts.train_lerobot_dp_policy --task R1LiteBlocksStackEa
 python -m galaxea_sim.scripts.eval_lerobot_dp_policy --task R1ProBlocksStackEasy --pretrained-policy-path outputs/train/R1ProBlocksStackEasy/diffusion/.../checkpoint --target_controller_type bimanual_joint_position
 python -m galaxea_sim.scripts.eval_lerobot_dp_policy --task R1LiteBlocksStackEasy --pretrained-policy-path outputs/train/R1LiteBlocksStackEasy/diffusion/.../checkpoint --target_controller_type bimanual_joint_position
 </code></pre>
-<h2 id="_8">许可与致谢</h2>
+<h2 id="_8">结果展示</h2>
+<p>在open-galaxea/GalaxeaManipSim/outputs/train/R1DualBottlesPickEasy 应该能看到结果视频</p>
+<video src="https://raw.githubusercontent.com/Open-Galaxea/open-galaxea/main/assets/sim_R1ProBottlePick.mp4" 
+       controls 
+       width="600"
+       muted
+       autoplay
+       loop>
+</video>
+
+<h2 id="_9">许可与致谢</h2>
 <ul>
 <li>MIT 许可</li>
 <li>致谢 Diffusion Policy、LeRobot、Robotwin</li>
 </ul>
-<h2 id="_9">引用</h2>
+<h2 id="_10">引用</h2>
 <pre><code>@inproceedings{GalaxeaManipSim,
   title={Galaxea Manipulation Simulator},
   author={Galaxea Team},
