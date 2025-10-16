@@ -668,10 +668,18 @@ mv robotwin_models galaxea_sim/assets/
 <p>若遇到 <code>datasets</code> 包缓存冲突，请清理 <code>~/.cache/huggingface/datasets</code>。</p>
 <h2 id="_4">🎮 采集演示</h2>
 <h3 id="1-mplib">1) 生成原始演示（mplib）</h3>
-<p>下面展示三种不同任务的例子，以下示例命令行选其一运行。其中全部17种任务可以在<code>open-galaxea/GalaxeaManipSim/galaxea_sim/envs/robotwin/__init__.py</code>找到。
-- R1：<code>R1DualBottlesPickEasy</code> 
-- R1 Pro：<code>R1ProBlocksStackEasy</code> 
-- R1 Lite：<code>R1LiteBlocksStackEasy</code> </p>
+<p>下面展示三种不同任务的例子，以下示例命令行选其一运行。其中全部17种任务可以在<code>open-galaxea/GalaxeaManipSim/galaxea_sim/envs/robotwin/__init__.py</code>找到。</p>
+<ul>
+<li>
+<p>R1：<code>R1DualBottlesPickEasy</code> </p>
+</li>
+<li>
+<p>R1 Pro：<code>R1ProBlocksStackEasy</code> </p>
+</li>
+<li>
+<p>R1 Lite：<code>R1LiteBlocksStackEasy</code> </p>
+</li>
+</ul>
 <pre><code>python -m galaxea_sim.scripts.collect_demos --env-name R1DualBottlesPickEasy --num-demos 100
 python -m galaxea_sim.scripts.collect_demos --env-name R1ProBlocksStackEasy --num-demos 100
 python -m galaxea_sim.scripts.collect_demos --env-name R1LiteBlocksStackEasy --num-demos 100
